@@ -2,18 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{63fa887c-788d-4d3f-a131-58ac2848f806}</UniqueIdentifier>
+      <UniqueIdentifier>{11bb42a1-8a5d-4bde-bc5a-f4e671826b29}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{33155b17-2bb1-47d1-9713-ce2e7e2e5862}</UniqueIdentifier>
+      <UniqueIdentifier>{95c831ea-10ba-4161-8dc7-64ed87c7a1ce}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="misc">
-      <UniqueIdentifier>{d509d432-a8cb-4de0-b324-2d6e8c428705}</UniqueIdentifier>
+      <UniqueIdentifier>{96130166-b547-4800-9000-282b00f73faa}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{ee684998-21db-4f31-8baf-97210a582824}</UniqueIdentifier>
+      <UniqueIdentifier>{b2a822be-4dc5-4db1-948f-c06a7d475fb2}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -86,10 +86,10 @@
     <ClInclude Include="..\..\Common\Messaging\Telegram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\ConsoleUtils.h">
+    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h">
       <Filter>misc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h">
+    <ClInclude Include="..\..\Common\ConsoleUtils.h">
       <Filter>misc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Common\Time\CrudeTimer.h">
@@ -98,10 +98,10 @@
     <ClInclude Include="..\..\Common\2D\SVector2D.h">
       <Filter>misc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\misc\utils.h">
+    <ClInclude Include="..\..\Common\utils.h">
       <Filter>misc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\utils.h">
+    <ClInclude Include="..\..\Common\misc\utils.h">
       <Filter>misc</Filter>
     </ClInclude>
   </ItemGroup>

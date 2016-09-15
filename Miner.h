@@ -15,9 +15,9 @@
 
 #include "BaseGameEntity.h"
 #include "Locations.h"
-#include "ConsoleUtils.h"
+#include "misc/ConsoleUtils.h"
 #include "MinerOwnedStates.h"
-#include "StateMachine.h"
+#include "fsm/StateMachine.h"
 
 template <class entity_type> class State; //pre-fixed with "template <class entity_type> " for vs8 compatibility
 
